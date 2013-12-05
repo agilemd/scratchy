@@ -1,6 +1,18 @@
 # scratchy
 repl with node_modules preloaded
 
+
+## installation
+
+    $ npm install -g scratchy
+
+## usage
+
+```
+$ scratchy
+```
+
+
 ## programmatic usage
 
 ```js
@@ -10,18 +22,10 @@ scratchy(startingDirectory)
 
 `scratchy` returns a node repl object. you can do with this as you please.
 
-## installation
-
-    $ npm install scratchy
-
 
 ## running the tests
 
-From package root:
-
-    $ npm install
-    $ npm test
-
+well, there aren't any yet. contribute some?
 
 ## contributors
 
