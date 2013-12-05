@@ -1,11 +1,16 @@
 {
   "name": "scratchy",
   "author": "AgileMD <hello@agilemd.com>",
-  "contributors": ["jden <jason@denizac.org>"],
+  "contributors": [
+    "jden <jason@denizac.org>"
+  ],
   "version": "0.1.0",
   "description": "repl with node_modules preloaded",
-  "keywords": ["repl"],
+  "keywords": [
+    "repl"
+  ],
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
   },
@@ -15,5 +20,9 @@
   "devDependencies": {
     "chai": "~1.6.0",
     "mocha": "~1.9.0"
+  },
+  "dependencies": {
+    "find-root": "~0.1.1",
+    "camelize": "~0.1.0"
   }
 }

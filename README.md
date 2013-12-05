@@ -1,14 +1,14 @@
 # scratchy
 repl with node_modules preloaded
 
-## usage
+## programmatic usage
+
 ```js
 var scratchy = require('scratchy')
+scratchy(startingDirectory)
 ```
 
-
-## api
-
+`scratchy` returns a node repl object. you can do with this as you please.
 
 ## installation
 
